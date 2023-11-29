@@ -439,5 +439,36 @@ nav .hamburger.active .bar {
 
 }
 
+@media screen and (max-width: 360px) {
+
+    .seccion1 {
+        flex-direction: column;
+    }
+
+    .padre {
+        width: auto;
+        font-size: auto;
+    }
+
+    .img img {
+        width: 50px;
+    }
+
+    .img {
+        display: flex;
+        gap: 20%;
+    }
+
+    .hijo h2 {
+        margin-top: 0%;
+        font-size: 25px;
+    }
+
+    .padre p {
+        font-size: 15px;
+    }
+
+}
+
 
 
